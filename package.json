@@ -1,0 +1,27 @@
+{
+  "name": "backend-algoritma---pt-eigen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "1": "node ./src/test1.js",
+    "2": "node ./src/test2.js",
+    "3": "node ./src/test3.js",
+    "4": "node ./src/test4.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
